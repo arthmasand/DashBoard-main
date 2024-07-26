@@ -1,0 +1,30 @@
+{
+  "name": "DashBoard Extension ",
+  "version": "0.1.0",
+  "description": "A digital notice board for better collaboration and communication.",
+  "permissions": [
+    "storage",
+    "tabs"
+  ],
+  "action": {
+    "default_icon": {
+      "16": "/images/icon16.png",
+      "24": "/images/icon16.png",
+      "32": "/images/icon16.png",
+      "48": "/images/icon16.png",
+      "128": "/images/icon16.png"
+    },
+    "default_title": "DashBoard Extension "
+  },
+  "icons": {
+    "16": "/images/icon16.png",
+    "24": "/images/icon16.png",
+    "32": "/images/icon16.png",
+    "48": "/images/icon16.png",
+    "128": "/images/icon16.png"
+  },
+  "chrome_url_overrides": {
+    "newtab": "index.html"
+  },
+  "manifest_version": 3
+}

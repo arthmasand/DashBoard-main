@@ -1,0 +1,78 @@
+/* App.css */
+.app-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #f0f2f5;
+  padding: 20px;
+}
+
+.header {
+  grid-column: 1 / -1;
+  background-color: #ffffff;
+  padding: 15px 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.App {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  gap: 20px;
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* Rest of your existing CSS remains the same */
+
+.item {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  transition: all 0.3s ease;
+}
+
+.item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.google-slide {
+  grid-column: 1 / span 2;
+  grid-row: 1 / span 2;
+}
+
+.time {
+  grid-column: 3;
+  grid-row: 1;
+  min-height: 130px;
+}
+
+.pomodoro {
+  grid-column: 3;
+  grid-row: 2;
+  min-height: 130px;
+}
+
+.bookmarks {
+  grid-column: 1;
+  grid-row: 3;
+}
+
+.todo {
+  grid-column: 2;
+  grid-row: 3;
+}
+
+.crypto {
+  grid-column: 3;
+  grid-row: 3;
+}
+
+/* Scrollbar styles and responsive design remain the same */   

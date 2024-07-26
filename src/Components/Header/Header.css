@@ -1,0 +1,29 @@
+/* src/components/Header/Header.css */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&display=swap');
+
+.header {
+  background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+  padding: 20px 0;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: 300;
+  color: #ffffff;
+  text-align: center;
+  letter-spacing: 2px;
+  margin: 0;
+}
+
+.title-accent {
+  font-weight: 700;
+  color: #ffd700; /* Gold color for accent */
+}
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 2rem;
+  }
+}  
